@@ -1,0 +1,12 @@
+USE startersql;
+SELECT * from users;
+SELECT gender, name from users;
+SELECT name, gender from users;
+SELECT * from users WHERE gender = 'FEMALE';
+SELECT * from users WHERE gender <> 'MALE';
+SELECT * from users WHERE gender != 'MALE';
+SELECT * from users WHERE date_of_birth<'2000-08-18';
+SELECT * from users WHERE id>=125;
+SELECT * from users WHERE id<=125;
+SELECT * from users WHERE date_of_birth IS NULL;
+SELECT * from users WHERE date_of_birth BETWEEN '2000-08-18' AND '2000-12-12';
