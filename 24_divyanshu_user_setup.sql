@@ -1,0 +1,2 @@
+CREATE USER Divyanshu IDENTIFIED BY oracle;
+GRANT CONNECT, RESOURCE TO Divyanshu;
